@@ -22,8 +22,8 @@
 
             <!-- TODO 2: Mancano le classi per alcuni elementi di questo gruppo di controlli. Cercale negli altri HTMLs e trova le classi corrette da applicare -->
             <div class="controls-bar">
-                 <div class="">
-                    <div class="">
+                 <div class="controls-group">
+                    <div class="field">
                         <label for="top-limit-select">Quante storie vuoi vedere</label>
                         <select id="top-limit-select">
                             <option value="12">12 storie</option>
@@ -33,10 +33,10 @@
                         </select>
                     </div>
                 </div>
-                <button id="top-refresh-button" class="" type="button">Aggiorna radar</button>
+                <button id="top-refresh-button" class="btn btn-primary" type="button">Aggiorna radar</button>
             </div>
 
-            <div id="top-summary" class="archive-summary"></div>
+            <div id="thread-summary" class="archive-summary"></div>
         </section>
 
         <section class="page-section" id="top-feed-section">
@@ -46,7 +46,7 @@
                     <h3>Storie in evidenza</h3>
                 </div>
             </div>
-            <div id="top-feed-root" class="story-list"></div>
+            <div id="thread-root" class="story-list"></div>
         </section>
     </main>
 
