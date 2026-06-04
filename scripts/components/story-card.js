@@ -76,7 +76,7 @@ export function createStoryCard({
         <div class="story-card__top">
             <div class="story-card__heading">
                 <p class="story-card__eyebrow">#${sanitizeHTML(story.id)}</p>
-                <h3 class="story-card__title"><a href="${threadHref}">${title>}</a></h3>
+                <h3 class="story-card__title"><a href="${threadHref}">{title>}</a></h3>
                 <div class="story-card_meta">${scoreLabel}</span>
                 <span class="chip score">
                     <span class="chip comments">${commentsLabel}</span>
