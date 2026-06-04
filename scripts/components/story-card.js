@@ -82,9 +82,6 @@ export function createStoryCard({
                     <span class="chip comments">${commentsLabel}</span>
                     <span class="chip time">${timeLabel}</span>
                         <span class="chip author">${authorLink}</span>
-
-                    
-                }
             </div>
             ${actions}
         </div>
