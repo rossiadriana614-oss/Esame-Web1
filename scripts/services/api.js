@@ -59,7 +59,7 @@ async function requestJson(url, errorPrefix) {
         let dati = risposta.json()
         return dati 
         }catch(error){
-            throw new error (${errorPrefix})
+            throw new error ('${errorPrefix}')
         }
         }
 
@@ -72,7 +72,7 @@ async function requestJson(url, errorPrefix) {
     // Controlla sempre anche errori di rete o altri errori imprevisti con un catch e restituisci un messaggio di errore coerente con il prefisso
 
 
-}
+
 
 /**
  * Recupera gli ID delle top stories.
