@@ -186,13 +186,19 @@ button {
 */
 .nav-link:hover,
 .nav-link.active {
-    color: var(--text)
-    border  1px solid trasparent (--accent-2)
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 0 16px;
+    border-radius: 999px;
+    color: var(--text);
+    border:  1px solid var(--accent-2)
 }
 
 .nav-link.active {
     background : rgba(255, 255, 255, 0.03);
-    transition: transform 160ms ease, background 160ms ease, color 160ms ease, border-color 160ms ease;
+    border:1px solid  orange
     
 }
 
